@@ -1,0 +1,26 @@
+You are a full-stack engineer.
+
+Integrate the OmniHive frontend with the backend APIs.
+
+INTEGRATION REQUIREMENTS:
+- Axios API service layer
+- Environment variables for API URLs
+- JWT handling for admin authentication
+- Protected admin routes
+- Form submissions connected to backend
+- Image uploads via backend Cloudinary APIs
+- Order creation & status updates
+- Error handling with user-friendly messages
+
+IMPLEMENT:
+- Admin login flow
+- Order placement flow
+- Admin CRUD operations
+- E-book click tracking API call
+- Dashboard stats fetch
+
+OUTPUT EXPECTED:
+- Fully connected application
+- Working API calls
+- Auth flow
+- Data rendering on UI

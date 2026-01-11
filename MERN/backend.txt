@@ -1,0 +1,88 @@
+You are a senior backend engineer.
+
+Build a production-ready BACKEND for a MERN stack application named "OmniHive".
+
+TECH STACK:
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- JWT authentication (Admin only)
+- Cloudinary for image storage
+- Multer for file uploads
+- dotenv for environment variables
+
+PROJECT DESCRIPTION:
+OmniHive is a multi-service platform that includes:
+1. E-Books (affiliate redirect)
+2. Food ordering (local shop-wise)
+3. Clothes selling
+
+USER ROLES:
+- Admin (single user)
+- End users (no login required)
+
+BACKEND REQUIREMENTS:
+
+1. AUTHENTICATION
+- Admin login API
+- Password hashing using bcrypt
+- JWT-based authentication
+- Middleware to protect admin routes
+
+2. CLOUDINARY
+- Configure Cloudinary
+- Upload images for:
+  - E-books
+  - Food items
+  - Clothes
+- Store only Cloudinary URLs in MongoDB
+
+3. MONGODB SCHEMAS
+Create schemas for:
+- Admin
+- EBook
+- FoodShop
+- FoodItem
+- Cloth
+- Order
+
+Order schema must store:
+- orderType (FOOD | CLOTHES | EBOOK)
+- user details (name, email, phone, address)
+- items
+- totalAmount
+- status
+- timestamps
+
+4. APIs
+- CRUD APIs for E-books
+- CRUD APIs for Food Shops
+- CRUD APIs for Food Items
+- CRUD APIs for Clothes
+- Order placement API
+- Order status update API (Admin)
+- E-book click tracking API
+
+5. PROJECT STRUCTURE
+Use clean architecture:
+- routes
+- controllers
+- services
+- models
+- middleware
+- utils (Cloudinary config)
+
+6. ERROR HANDLING
+- Centralized error handler
+- Proper HTTP status codes
+
+7. SECURITY
+- Input validation
+- JWT middleware
+- Environment-based configs
+
+OUTPUT EXPECTED:
+- Complete backend source code
+- Folder structure
+- Sample .env file
+- API endpoint list

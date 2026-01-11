@@ -1,0 +1,15 @@
+Act as a senior product engineer.
+
+Polish the OmniHive application with:
+- Better UI spacing & typography
+- Optimized API calls
+- Skeleton loaders
+- Reusable modal components
+- Confirmation dialogs
+- Mobile optimization
+- Performance improvements
+
+Ensure:
+- Clean UX
+- Fast load time
+- Consistent branding

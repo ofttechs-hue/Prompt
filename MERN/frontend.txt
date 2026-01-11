@@ -1,0 +1,50 @@
+You are a senior frontend engineer.
+
+Build a modern, interactive FRONTEND for a MERN stack application named "OmniHive".
+
+TECH STACK:
+- React.js (Vite or Next.js)
+- Tailwind CSS or Material UI
+- Axios for API calls
+- React Context or Redux for state
+- React Router
+
+UI REQUIREMENTS:
+
+PUBLIC PAGES:
+- Home page with service cards (E-books, Food, Clothes)
+- E-book listing & detail page
+- Food shop listing
+- Food menu page (shop-wise)
+- Clothes catalog
+- Cart & checkout page
+- Responsive design (mobile first)
+
+ADMIN PAGES:
+- Admin login page
+- Admin dashboard
+- CRUD screens for:
+  - E-books
+  - Food shops
+  - Food items
+  - Clothes
+- Orders management page
+- Status update controls
+
+UX EXPECTATIONS:
+- Clean startup UI
+- Smooth animations
+- Interactive cards
+- Toast notifications
+- Loading states
+- Search & filters
+
+DATA HANDLING:
+- Forms for order placement (name, email, phone, address)
+- Admin image upload support (integrates with backend Cloudinary APIs)
+
+OUTPUT EXPECTED:
+- Complete frontend source code
+- Component structure
+- Reusable components
+- Responsive layout

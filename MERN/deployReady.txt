@@ -1,0 +1,13 @@
+Prepare OmniHive for production deployment.
+
+TASKS:
+- Setup environment variables
+- Build frontend
+- Prepare backend for Render/Railway
+- MongoDB Atlas setup
+- Cloudinary production config
+- Deployment steps documentation
+
+OUTPUT:
+- Deployment guide
+- Production-ready setup
